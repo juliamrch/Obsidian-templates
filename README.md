@@ -4,7 +4,7 @@ Those are my templates for everyday work and projects, self hosted on my compute
 
 ## What kind of templates are those ?
 
-I translate to French some existing templates that I find cool and create my own. Template I reuse are in a separate folder with appropriate README and LICENCE files. 
+I translate to French some existing templates that I find cool and create my own. Templates I reuse are in a separate folder with appropriate README and LICENCE files. 
 
 Some are business oriented, others might be more creative oriented. It really depends on the mood or if Mercury is in retrograde. For example.
 
