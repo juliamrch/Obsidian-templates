@@ -5,37 +5,48 @@ created: ["{{date}} {{time}}"]
 tags: ["#Log/WeeklyLog"]
 ---
 ___
-```toc
- style: number
-```
-# 🌌 Revue -> 
+
+
+# 🔎 Revue Hebdomadaire
+
 ```dataview
 TABLE WITHOUT ID
 	link(file.name) as "Jour",
 	Tech AS "⚙️",
 	Priorités AS "📍",
-	Mood AS "✨",
 	Bof AS "☹️",
-	Cool AS "😎",
+	Cool AS "✌️",
 	Idées AS "💡"
 WHERE file.folder = this.file.folder AND
  contains(tag, "#Log/dailylog") 
 SORT file.name ASC
 ```
 
-### 📑 Revue Hebdo
+
+### 💾 À retenir des logs journaliers
 
 - 
 
-### 🔃 Réflexions
+### 💬 Généralités
 
 - 
 
-### 📜 Évènements
+### 💭 Questions
+- [ ] 
+
+
+## Personnel
+
+
+### 🤔 Réflexions
 
 - 
 
-### 📃 Projets
+### 🥁 Évènements
+
+- 
+
+### 🚀 Projets
 
 #### **Qu'est-ce que j'ai réalisé?**
 
@@ -50,9 +61,5 @@ SORT file.name ASC
 - 
 
 #### **Quelles pistes d'améliorations pour la suite ?**
-
-- 
-
-### 💾 Information à retenir des logs journaliers
 
 - 

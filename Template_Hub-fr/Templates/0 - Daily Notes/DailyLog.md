@@ -17,10 +17,20 @@ tags: ["#Log/DaiLylog"]
 ## 🔷Suivi
 - Tech:: 
 - Priorités::
-- Mood::
 - Bof::
 - Cool::
+
+notetype:: #idées
 - Idées::
+
+```dataviewjs  
+dv.header(2, 'En retard');  
+dv.taskList(dv.pages('#Log/DailyLog').file.tasks  
+.where(t => !t.completed));
+
+```
+
+
 
 ##  💬 Réflexions diverses 
 
