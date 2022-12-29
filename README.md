@@ -24,7 +24,7 @@ These are templates for different kinds of meeting. I've connected it to my embe
 
 ### 🌐 Blog
 
-This is a template post for [Hugo](https://gohugo.io), since my blog is embeded into Obsidian, and write my posts from there.
+This is a template post for [Hugo](https://gohugo.io), since my blog is embeded into Obsidian, and I write my posts from there.
 
 
 ## ⚙️ Special features?
