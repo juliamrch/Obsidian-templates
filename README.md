@@ -16,7 +16,7 @@ For daily and weekly logs. Categories from `note-quotidienne` are automatically 
 
 ### 🚀 Projet
 
-Templates to keep track of your projects and acomplishment. Use `Projet` as a template to write your project details. The #wip tag will add it to `tableau-de-bord` and remove it when you change it to #done. Once you change the #wip tag to #done, your project will appear in your `🚀 Accomplissements` dashboard. 
+Templates to keep track of your projects and acomplishments. Use `Projet` as a template to write your project details. The #wip tag will add it to "Projets tech" in `tableau-de-bord`, and remove it when you change it to #done. Once you change the #wip tag to #done, your project will appear in your `🚀 Accomplissements` dashboard. 
 
 ### 💬 Réunions
 
