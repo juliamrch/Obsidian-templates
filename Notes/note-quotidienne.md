@@ -14,7 +14,7 @@ tags: ["#Log/DaiLylog"]
  style: number
 ```
 
-## 🔷Suivi
+## 🔎 Suivi
 - Tech:: 
 - Priorités::
 - Bof::
@@ -23,12 +23,13 @@ tags: ["#Log/DaiLylog"]
 notetype:: #idées
 - Idées::
 
-```dataviewjs  
-dv.header(2, 'En retard');  
-dv.taskList(dv.pages('#Log/DailyLog').file.tasks  
-.where(t => !t.completed));
+notetype:: #débloqué
+- Qui:: 
+- Quoi:: 
+- Comment:: 
 
-```
+## 🎯 Objectifs
+- [ ] 
 
 
 
