@@ -1,3 +1,6 @@
+---
+created: ["{{date}} {{time}}"]
+---
 
 📍 Compte rendu de la réunion du {{date}} {{time}}
 
@@ -36,4 +39,6 @@
 
 ## 🦄 Personnes ressources pour le projet
  
- - 
+
+
+#cr 

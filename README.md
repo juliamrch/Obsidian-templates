@@ -22,6 +22,8 @@ Templates to keep track of your projects and acomplishments. Use `Projet` as a t
 
 These are templates for different kinds of meeting. I've connected it to my embeded calendar to create a note before a meeting.
 
+The `suivi` doc will compile all your meeting-notes so you can easily find them.
+
 ### 🌐 Blog
 
 This is a template post for [Hugo](https://gohugo.io), since my blog is embeded into Obsidian, and I write my posts from there.
