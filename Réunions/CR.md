@@ -41,4 +41,4 @@ created: ["{{date}} {{time}}"]
  
 
 
-#cr 
+#cr #template

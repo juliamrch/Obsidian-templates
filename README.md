@@ -1,6 +1,6 @@
 # Obsidian French Templates
 
-Those are my templates for everyday work and projects, self hosted on my computer with [Obsidian](https://obsidian.md).
+Those are my templates for everyday work and side projects, self hosted on my computer with [Obsidian](https://obsidian.md).
 
 ## What kind of templates are those ?
 
@@ -12,7 +12,21 @@ Some are business oriented, others might be more creative oriented. It really de
 
 ### 📝 Notes
 
-For daily and weekly logs. Categories from `note-quotidienne` are automatically reported to `revue-hebdo` to create a summary. Add `note-quotidienne` as your default template for the Daily Note.
+For daily and weekly logs. Includes some mecanisms to summarize and keep track, like:
+
+- Categories from `Note Hebdo` are automatically reported to `Revue Hebdo` to create a summary.
+- `daily` template includes a `dataviewjs` snippet to collect undone tasks from previous notes and to **exclude** unchecked tasks from templates (in order to avoid polluting your task feed).
+
+⚠️ Undone tasks will be collected only from the folder where your new daily note is created. My folder is named `☀️ Morning Routine`, you can create a folder with the same name or change it on the template:
+
+```dataviewjs
+dv.header(2, '🫵 Tâches non faites');  
+dv.taskList(dv.pages('"☀️ Morning Routine"').file.tasks
+.where(t => !t.completed))
+
+```
+
+- Add `daily` as your default template for the Daily Note.
 
 ### 🚀 Projet
 
@@ -23,11 +37,6 @@ Templates to keep track of your projects and acomplishments. Use `Projet` as a t
 These are templates for different kinds of meeting. I've connected it to my embeded calendar to create a note before a meeting.
 
 The `suivi` doc will compile all your meeting-notes so you can easily find them.
-
-### 🌐 Blog
-
-This is a template post for [Hugo](https://gohugo.io), since my blog is embeded into Obsidian, and I write my posts from there.
-
 
 ## ⚙️ Special features?
 

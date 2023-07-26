@@ -8,7 +8,8 @@ type: 'dashboard'
 TABLE without ID
   file.link AS "Projet",
   Description AS "💬"
-  FROM #projet and #wip
+FROM #projet and #wip
+sort file.link ASC
 ```
 
 

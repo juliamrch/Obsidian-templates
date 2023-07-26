@@ -5,3 +5,4 @@ TABLE without ID
 FROM #cr 
 ```
 
+#template
